@@ -1,6 +1,6 @@
 # Cryptocurrency - A Small View Into the World of Ethereum ("ETH")
 
-By: Camillo D'Orazio, Collin Holben, Justin John, Todd Shevlin - November 2020
+By: Justin John
 
 <img src='https://www.uktech.news/wp-content/uploads/2019/09/shutterstock_776426233-898x505.jpg' width='550'><sup>15<sup>
 
