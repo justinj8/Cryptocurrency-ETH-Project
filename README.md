@@ -71,9 +71,6 @@ ________________________________________________________________________________
 
 - The higher the amount of *GAS*, the faster the transaction will be processed.
 
-### Comparison between Sum of Daily Transactions & Daily Sum of ETH
-
-![Sum Trans](sum_eth__transactions.png)<sup>8<sup>
     
 ### Comparison between Sum of Daily Transactions & ETH Price
 
