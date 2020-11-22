@@ -6,14 +6,14 @@ By: Justin John
 
 ## Overview and Origin of ETH
 
-A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup>2</sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts"* <sup>3</sup> 
+A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts"* <sup></sup> 
 
-![ETH Top Ten Transactions](top_10.png)<sup>8<sup>
+![ETH Top Ten Transactions](top_10.png)<sup><sup>
     
 ____________________________________________________________________________________________________________________
 
 ## What is Blockchain technology and how does it work?
-*Blockchain* technology is highly sophisticated and a complex structure with many substructures. Blockchain allows for decentralization, i.e. no central regulatory body who oversees the transactions on the platform. Instead, it uses what is referred to as a *distributed or digital ledger* (NOTE: these terms are used interchangeably). The simplest way to describe what *Blockchain* is, or how it works is: “Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.” <sup>4</sup>
+*Blockchain* technology is highly sophisticated and a complex structure with many substructures. Blockchain allows for decentralization, i.e. no central regulatory body who oversees the transactions on the platform. Instead, it uses what is referred to as a *distributed or digital ledger* (NOTE: these terms are used interchangeably). The simplest way to describe what *Blockchain* is, or how it works is: “Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.” <sup></sup>
 
 ### There are 3 pillars of *Blockchain*:
     
@@ -135,12 +135,8 @@ In looking at these charts closely, you will notice that Ethereum is extremely v
 <hr>
 
 ## Post Mortem/Lessons Learned
-- We definitely learned a lot about collaboration during this project.  Early on we split tasks between data attainment and vizualization preparation.  An early issue we ran into that persisted throughout the project was challenges related to the repository.  After cloning, there were problems pushing up documents, switching branches, having to rebase, re-clone, getting overwrite warnings, etc.  A much different experience than working on a solo project. 
-- We also ran into challenges identifying good API's to use, and running out of available data to pull (unless we paid to upgrade).  Some of the data received was also in a format that was difficult to convert to a dataframe.  Converting dates was also required on most of the imports. We used a variety of data sources - Google BigQuery, CoinGecko, GoogleFinance, Yahoo Finance, and some direct downloads.  Each comes with its own setup, documentation, and methodology.  Our repository also reached its monthly limit, which created challenges pushing additional documents due to the size of some of the .CSVs.  In the future we will just utilize API's to do live calls for the data.
-- Preparing the data for the final presentation was also a challenge, as PyViz has some anomalies that we had to work through.  We originally coded this in a procedural manner, and had to convert to a functional process.  Having to modify the code and associated source dataframes took a lot of time.  It would have been much easier to begin coding in this manner.
-- We intended to use the Dash package for some visuals, though having to learn the nuances of this package in a limited time frame made it difficult for us to get a working visual for the final presentation.
-
-
+- I ran into challenges identifying good API's to use, and running out of available data to pull (unless I paid to upgrade).  Some of the data received was also in a format that was difficult to convert to a dataframe.  Converting dates was also required on most of the imports. I used a variety of data sources - Google BigQuery, CoinGecko, GoogleFinance, Yahoo Finance, and some direct downloads.  Each comes with its own setup, documentation, and methodology.  
+- Preparing the data had challenges as PyViz had some anomalies that I had to work through. I originally coded this in a procedural manner, and had to convert to a functional process. Having to modify the code and associated source dataframes took a lot more time than if there no anomalies.  
 
 ____________________________________________________________________________________________________________________
 ## Works Cited
