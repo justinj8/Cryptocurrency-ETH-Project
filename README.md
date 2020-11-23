@@ -129,7 +129,7 @@ ________________________________________________________________________________
 ## Observations and Recommendations
 In looking at these charts closely, you will notice that Ethereum is extremely volatile, though is also a good hedge against other asset classes.  Also, despite the high volatility, it has a very high "alpha" (excess return), indicating that it can be highly profitable as long as you invest responsibly.  Compared with currencies, it does not correlate especially well.  This is to be expected as most of the comparison currencies are mature and heavily traded. 
 
-<hr>
+____________________________________________________________________________________________________________________
 
 ## Post Mortem/Lessons Learned
 - I ran into challenges identifying good API's to use, and running out of available data to pull (unless I paid to upgrade).  Some of the data received was also in a format that was difficult to convert to a dataframe.  Converting dates was also required on most of the imports. I used a variety of data sources - Google BigQuery, CoinGecko, GoogleFinance, Yahoo Finance, and some direct downloads.  Each comes with its own setup, documentation, and methodology.  
