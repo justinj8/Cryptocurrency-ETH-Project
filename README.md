@@ -8,7 +8,7 @@ By: Justin John
 
 A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts"* <sup></sup> 
 
-![ETH Top Ten Transactions](top_10.png)<sup><sup>
+![ETH Top Ten Transactions](Resources/top_10.png)<sup><sup>
     
 ____________________________________________________________________________________________________________________
 
@@ -40,12 +40,12 @@ ________________________________________________________________________________
 
 ### Price Comparison between Bitcoin and Ethereum - (Past 5 years)
 
-![ETH vs BTC Price](eth_btc_price.png)<sup>8<sup>
+![ETH vs BTC Price](Resources/eth_btc_price.png)<sup>8<sup>
 
 
 ### ETH Price Compared to Different Asset Classes - (Past 5 years)
 
-![ETH Assets](eth_assets.png)<sup>8<sup>
+![ETH Assets](Resources/eth_assets.png)<sup>8<sup>
 
 ____________________________________________________________________________________________________________________
 
@@ -74,7 +74,7 @@ ________________________________________________________________________________
     
 ### Comparison between Sum of Daily Transactions & ETH Price
 
-![Sum Trans Price](sum_transactions_price.png)<sup>8<sup>
+![Sum Trans Price](Resources/sum_transactions_price.png)<sup>8<sup>
 
 
 ## Basics of an *Ethereum* Network
@@ -96,34 +96,34 @@ ________________________________________________________________________________
 
 ### A Closer look at ETH Price
 
-![ETH Price](eth_price_plot.png)<sup>8<sup>
+![ETH Price](Resources/eth_price_plot.png)<sup>8<sup>
 
 
 ## Investment Analysis (Risks and Opportunities)
 
 ### Rolling Standard Deviation of ETH vs. Currencies & Asset Classes
 
-![Rolling STD](rolling_std_dev.png)<sup>8<sup>
+![Rolling STD](Resources/rolling_std_dev.png)<sup>8<sup>
 
 ### Percentage Change of ETH vs. Currencies & Asset Classes
 
-![Heatmap](pct_change_heatmap.png)<sup>8<sup>
+![Heatmap](Resources/pct_change_heatmap.png)<sup>8<sup>
 
 ### Risk of ETH vs. Currencies & Asset Classes
 
-![Boxplot](pct_change_box_plot.png)<sup>8<sup>
+![Boxplot](Resources/pct_change_box_plot.png)<sup>8<sup>
 
 ### Sharpe Ratio of ETH vs. Currencies & Asset Classes
 
-![Sharpe](sharpe_ratios.png)<sup>8<sup>
+![Sharpe](Resources/sharpe_ratios.png)<sup>8<sup>
  
 ### Drawdown of ETH vs. Currencies & Asset Classes
  
-![Drawdown](drawdown.png)<sup>8<sup>
+![Drawdown](Resources/drawdown.png)<sup>8<sup>
 
 ### Mining Difficulty vs. ETH Price
 
-![Mining Difficulty](mining_difficulty_price.png)<sup>8<sup>
+![Mining Difficulty](Resources/mining_difficulty_price.png)<sup>8<sup>
 
 
 ## Observations and Recommendations
