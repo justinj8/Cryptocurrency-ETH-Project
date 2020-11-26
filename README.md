@@ -6,7 +6,7 @@ By: Justin John
 
 ## Overview and Origin of ETH
 
-A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts"* <sup></sup> 
+A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts."* <sup></sup> 
 
 ![ETH Top Ten Transactions](Resources/top_10.png)<sup><sup>
     
@@ -82,7 +82,7 @@ ________________________________________________________________________________
 - The base layer of *Ethereum* consists of a vast network of computers called *nodes*.
     - These *nodes* are connected to the internet with software installed on local computers that run on the *Ethereum* Blockchain. 
     - This base layer of *nodes* is where the transaction data is processed, validated and stored.
-    - While the *nodes* perform the computational work required to process transaction data, they are rewarded with Ether, dictated by the *GAS* calculated for each transaction,
+    - While the *nodes* perform the computational work required to process transaction data, they are rewarded with Ether, dictated by the *GAS* calculated for each transactio.
 - The second layer on top of the base hardware layer acts as a software layer.
     - This software layer supports a programming language library which consists of solidity, viper, bamboo, etc. 
     - Using these programming languages developers can write *smart contracts*.
@@ -127,7 +127,7 @@ ________________________________________________________________________________
 
 
 ## Observations and Recommendations
-In looking at these charts closely, you will notice that Ethereum is extremely volatile, though is also a good hedge against other asset classes.  Also, despite the high volatility, it has a very high "alpha" (excess return), indicating that it can be highly profitable as long as you invest responsibly.  Compared with currencies, it does not correlate especially well.  This is to be expected as most of the comparison currencies are mature and heavily traded. 
+In looking at these charts closely, you will notice that Ethereum is extremely volatile, though is also a good hedge against other asset classes.  Also, despite the high volatility, it has a very high "alpha" (excess return), indicating that it can be highly profitable as long as you invest responsibly.  Compared with currencies, it does not correlate especially well. This is to be expected as most of the comparison currencies are mature and heavily traded. 
 
 ____________________________________________________________________________________________________________________
 
