@@ -82,7 +82,7 @@ ________________________________________________________________________________
 - The base layer of *Ethereum* consists of a vast network of computers called *nodes*.
     - These *nodes* are connected to the internet with software installed on local computers that run on the *Ethereum* Blockchain. 
     - This base layer of *nodes* is where the transaction data is processed, validated and stored.
-    - While the *nodes* perform the computational work required to process transaction data, they are rewarded with Ether, dictated by the *GAS* calculated for each transactio.
+    - While the *nodes* perform the computational work required to process transaction data, they are rewarded with Ether, dictated by the *GAS* calculated for each transaction.
 - The second layer on top of the base hardware layer acts as a software layer.
     - This software layer supports a programming language library which consists of solidity, viper, bamboo, etc. 
     - Using these programming languages developers can write *smart contracts*.
