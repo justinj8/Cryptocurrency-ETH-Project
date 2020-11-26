@@ -2,8 +2,7 @@
 #pyhelper.py import file.  Acts as a wrapper around common FinTech code
 #Currently has 4 classes - Finhelper, SQLhelper, PVhelper, and APIhelper
 
-#Written by toddshev, if anything is broken or you think anything can be added, let me know
-#Otherwise, hopefully it's helpful
+
 """
 '''
 Fin methods:
