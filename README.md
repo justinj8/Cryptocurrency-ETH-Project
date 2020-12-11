@@ -136,6 +136,7 @@ ________________________________________________________________________________
 - Preparing the data had challenges as PyViz had some anomalies that I had to work through. I originally coded this in a procedural manner, and had to convert to a functional process. Having to modify the code and associated source dataframes took a lot more time than if there no anomalies.  
 
 ____________________________________________________________________________________________________________________
+
 ## Works Cited
 
 <sup>1 ETH coin image - https://www.howtogeek.com/thumbcache/2/200/832a97c90178c6a52354c0b42cea6954/wp-content/uploads/2018/04/img_5ae3b681c9ae2.jpg
