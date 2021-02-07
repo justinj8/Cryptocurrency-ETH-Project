@@ -6,7 +6,7 @@ By: Justin John
 
 ## Overview and Origin of ETH
 
-A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstrain in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts."* <sup></sup> 
+A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstream in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts."* <sup></sup> 
 
 ![ETH Top Ten Transactions](Resources/top_10.png)<sup><sup>
     
