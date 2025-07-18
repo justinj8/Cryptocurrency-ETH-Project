@@ -3,6 +3,14 @@
 By: Justin John
 
 <img src='https://www.uktech.news/wp-content/uploads/2019/09/shutterstock_776426233-898x505.jpg' width='550'><sup>15<sup>
+## Installation
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ## Overview and Origin of ETH
 

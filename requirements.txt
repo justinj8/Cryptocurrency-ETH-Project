@@ -1,0 +1,12 @@
+alpaca_trade_api
+pandas
+numpy
+matplotlib
+plotly
+hvplot
+panel
+seaborn
+requests
+python-dotenv
+sqlalchemy
+pytz
