@@ -153,3 +153,7 @@ ________________________________________________________________________________
 
 <sup>7 Denominations of Ether source: https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
