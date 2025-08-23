@@ -6,11 +6,11 @@ This repository offers a brief tour of the Ethereum ecosystem using Python-based
 
 ## Project Structure
 
-- `crypto.ipynb` – main notebook containing data exploration and visualizations.
-- `Project_1_Dashboard.ipynb` – dashboard that combines key plots for quick viewing.
-- `import_data.py` / `import_data.ipynb` – utilities for pulling Ethereum price and network data.
+- `crypto.ipynb` – Main notebook containing data exploration and visualizations.
+- `Project_1_Dashboard.ipynb` – Dashboard that combines key plots for quick viewing.
+- `import_data.py` / `import_data.ipynb` – Utilities for pulling Ethereum price and network data.
 - `MCForecast.py` – Monte Carlo simulation of future price scenarios.
-- `Resources/` – static images referenced throughout this README.
+- `Resources/` – Static images referenced throughout this README.
 
 ## Installation
 
@@ -34,9 +34,9 @@ Blockchain technology provides a decentralized, tamper‑resistant ledger that a
 
 ### The three pillars of blockchain
 
-1. **Decentralization** – data is stored on many devices around the world rather than in one central location, preventing any single authority from controlling the network.
-2. **Transparency** – transactions are recorded on a public ledger, making the data easy to audit and difficult to forge.
-3. **Immutability** – once data is written to the blockchain, cryptography ensures it cannot be altered without detection.
+1. **Decentralization** – Data is stored on many devices around the world rather than in one central location, preventing any single authority from controlling the network.
+2. **Transparency** – Transactions are recorded on a public ledger, making the data easy to audit and difficult to forge.
+3. **Immutability** – Once data is written to the blockchain, cryptography ensures it cannot be altered without detection.
 
 ---
 
@@ -145,8 +145,3 @@ Ethereum's price is extremely volatile yet has historically provided strong exce
 5. Reiff, N. (2020, June 16) *Bitcoin vs. Ethereum: What's the Difference?* Investopedia – https://www.investopedia.com/articles/investing/031416/bitcoin-vs-ethereum-driven-different-purposes.asp
 6. YouTube video – https://www.youtube.com/watch?v=DhoRtGCp4JI
 7. Denominations of Ether source – https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
