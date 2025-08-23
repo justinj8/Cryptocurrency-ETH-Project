@@ -1,167 +1,152 @@
 # Cryptocurrency - A Small View Into the World of Ethereum ("ETH")
 
-By: Justin John
+This repository offers a brief tour of the Ethereum ecosystem using Python-based analysis and visualization.  The notebooks and scripts gather public data, calculate common financial statistics, and display the charts below to illustrate how the network and its native currency behave.
 
-<img src='https://www.uktech.news/wp-content/uploads/2019/09/shutterstock_776426233-898x505.jpg' width='550'><sup>15<sup>
+<img src='https://www.uktech.news/wp-content/uploads/2019/09/shutterstock_776426233-898x505.jpg' width='550'>
+
+## Project Structure
+
+- `crypto.ipynb` – main notebook containing data exploration and visualizations.
+- `Project_1_Dashboard.ipynb` – dashboard that combines key plots for quick viewing.
+- `import_data.py` / `import_data.ipynb` – utilities for pulling Ethereum price and network data.
+- `MCForecast.py` – Monte Carlo simulation of future price scenarios.
+- `Resources/` – static images referenced throughout this README.
+
 ## Installation
 
-Install the required packages using:
+Use Python 3.8+ and install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-
 ## Overview and Origin of ETH
 
-A 19-year-old Russian programmer from Toronto, Vitalik Buterin, conceived the idea for *Ethereum*. The Ethereum white paper was released in 2013, the coin was launched in 2015 and went mainstream in 2017 when the price jumped by more than 1000% over the course of a few months.<sup></sup> **ETH** is the second most popular cryptocurrency by market capitalization and, arguably, the most popular blockchain platform in existence today. **ETH** provides a framework for a decentralized application on the blockchain, has a large network of ERC-20 tokens and coined the term *"smart contracts."* <sup></sup> 
+Nineteen-year-old programmer Vitalik Buterin proposed Ethereum in 2013.  The network launched in 2015 and went mainstream in 2017 when the price surged more than 1000%.  **ETH** is now the second‑largest cryptocurrency by market capitalization and introduced the idea of decentralized applications and smart contracts on a programmable blockchain.
 
-![ETH Top Ten Transactions](Resources/top_10.png)<sup><sup>
-    
-____________________________________________________________________________________________________________________
+![ETH Top Ten Transactions](Resources/top_10.png)
+
+---
 
 ## What is Blockchain technology and how does it work?
-*Blockchain* technology is highly sophisticated and a complex structure with many substructures. Blockchain allows for decentralization, i.e. no central regulatory body who oversees the transactions on the platform. Instead, it uses what is referred to as a *distributed or digital ledger* (NOTE: these terms are used interchangeably). The simplest way to describe what *Blockchain* is, or how it works is: “Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.” <sup></sup>
 
-### There are 3 pillars of *Blockchain*:
-    
-1. Decentralization
-    - Defined as data that is recorded and stored on multiple devices in multiple locations all around the world as opposed to one central place. It also means that no one person, company, Goverment, authority or entity controls the data recording and storage process. Unlike centralized entities like the IRS in the U.S., Banks, or Colleges/Universities, as examples.
-    
-2. Transparency
-    - Relates to the way transactions are recorded on a ledger that is available for everyone to see. The data is saved on a network of computers around the world making the data impossible to be altered or affected. One example to compare this scenario to is how every tax dollar is spent by the United States Government. If the information is publicly available, it is easy to manipulate or forge since the U.S. Goverment controls that data unlike blockchain technology, where not one person or entity controls the data.
-    
-3. Immutability
-    - Simply means that the data recorded and stored on the blockchain cannot be forged or manipulated and that is through a process called cryptography and blockchain hashing.
+Blockchain technology provides a decentralized, tamper‑resistant ledger that anyone can inspect.  Picture a spreadsheet replicated across thousands of computers that continually agree on the latest version.  That shared ledger is the foundation of Ethereum.
 
-____________________________________________________________________________________________________________________
+### The three pillars of blockchain
 
-## Bitcoin versus Ethereum - What's the difference? They are both crypto, right?
+1. **Decentralization** – data is stored on many devices around the world rather than in one central location, preventing any single authority from controlling the network.
+2. **Transparency** – transactions are recorded on a public ledger, making the data easy to audit and difficult to forge.
+3. **Immutability** – once data is written to the blockchain, cryptography ensures it cannot be altered without detection.
 
-*Bitcoin* and *Ethereum* are both use cases of Blockchain Technology but with different purposes. <sup>5</sup>
+---
 
-- *Bitcoin* is a digital currency that people use as a form of payment. People transfer *Bitcoin* to and from each other or hold the currency long-term as an asset of value.
+## Bitcoin versus Ethereum – what's the difference?
 
-- *Ethereum* is a programmable blockchain that people can build software on top of to create products and services. Due to the decentralized property of the blockchain, software developers and programmers can build onto *Ethereum* with the ultimate goal of decentralized finance (DeFi). The aim is for a movement to transform the current financial system into a more transparent and trustworthy system.
+Bitcoin and Ethereum both use blockchain technology but pursue different goals:
 
-- A good analogy would be that bitcoin is like iOS, and Ethereum is like Android (controlled vs open source).
+- **Bitcoin** acts as a digital currency that people trade or hold as a store of value.
+- **Ethereum** is a programmable platform that lets developers build decentralized applications, enabling broader goals such as decentralized finance (DeFi).
+- A helpful analogy: Bitcoin is like iOS—tightly controlled—while Ethereum resembles Android's open‑source approach.
 
-### Price Comparison between Bitcoin and Ethereum - (Past 5 years)
+### Price Comparison between Bitcoin and Ethereum (past 5 years)
 
-![ETH vs BTC Price](Resources/eth_btc_price.png)<sup>8<sup>
+![ETH vs BTC Price](Resources/eth_btc_price.png)
 
+### ETH Price Compared to Different Asset Classes (past 5 years)
 
-### ETH Price Compared to Different Asset Classes - (Past 5 years)
+![ETH Assets](Resources/eth_assets.png)
 
-![ETH Assets](Resources/eth_assets.png)<sup>8<sup>
+---
 
-____________________________________________________________________________________________________________________
+## Ethereum speak – the basics
 
-## *Ethereum* speak - The basics <sup>6<sup> 
+### What is Ether?
 
-## What is Ether
+- Ether is the native cryptocurrency of the Ethereum blockchain.
+- It can be transferred globally, used as payment, or held as a digital asset.
+- Ethereum was designed so that Ether fuels the network by paying for computation and storage.
+- Unlike Bitcoin's fixed supply, ETH does not have a hard cap.
 
-- Ether is the *Ethereum* Blockchain native cryptocurrency that operates similarly to *Bitcoin* that its a digital currency that can be transferred to people around the world, used as a form of payment or act as an asset of value.
-- *Bitcoin* is described as digital gold, while *Ether* is described as digital oil.
-- Ether was designed with the intention of fueling the *Ethereum* Network.
-- To fuel the *Ethereum* network you have to pay for computing power and space required using Ether. The network charges transaction fees that is determined by a built-in pricing system known as *GAS*.
-- Another noteworthy difference between *Ether* and *Bitcoin ("BTC")* is that *BTC* has a fixed supply while *ETH* does not has a fixed supply.
+### What is GAS?
 
-## What is *GAS*?
+- **GAS** is the fee required to perform transactions on Ethereum and depends on the bandwidth, storage, and computational effort a transaction needs.
+- GAS prices are usually quoted in **GWEI**, a tiny fraction of Ether (similar to how a penny relates to a dollar).
+- Higher GAS fees incentivize miners or validators to process transactions faster.
 
-- *GAS* is how transaction costs are computed for *ETH* transactions and considers bandwidth, space requirements, as well as, the computational difficulty of each transaction to calculate the appropriate amount of fees needed to complete each transaction.
-- When executing transactions on *Ethereum* you will see *GAS* prices denoted as *GWEI (a.k.a. Giga Wei)* units.
-    - *GWEI* to *Ether* can be compared like 1 penny to 1 US Dollar.
+![Denominations of Ether](https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png)
 
-![Denominations of Ether](https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png)<sup>7<sup>
-
-- Denominations of power are represented as a Wei value is used to calculate *GAS* transaction costs.
-
-- The higher the amount of *GAS*, the faster the transaction will be processed.
-
-    
 ### Comparison between Sum of Daily Transactions & ETH Price
 
-![Sum Trans Price](Resources/sum_transactions_price.png)<sup>8<sup>
+![Sum Trans Price](Resources/sum_transactions_price.png)
 
+---
 
-## Basics of an *Ethereum* Network
+## Basics of an Ethereum Network
 
-- The base layer of *Ethereum* consists of a vast network of computers called *nodes*.
-    - These *nodes* are connected to the internet with software installed on local computers that run on the *Ethereum* Blockchain. 
-    - This base layer of *nodes* is where the transaction data is processed, validated and stored.
-    - While the *nodes* perform the computational work required to process transaction data, they are rewarded with Ether, dictated by the *GAS* calculated for each transaction.
-- The second layer on top of the base hardware layer acts as a software layer.
-    - This software layer supports a programming language library which consists of solidity, viper, bamboo, etc. 
-    - Using these programming languages developers can write *smart contracts*.
-    - *Smart contracts* make transactions trackable, transparent and permanent.
-- The combination of both the base layer and second layer creates a global decentralized super computer known as the *"Ethereum Virtual Machine"*. 
-    - The combination of both layers eliminates the need for a central authority to govern your data or your finances like a governmentt, bank or legal system. 
+- The base layer consists of a global network of computers known as **nodes** that run Ethereum software, validate transactions, and store the ledger.
+- Developers write **smart contracts** in languages such as Solidity, Vyper, or Bamboo.  These programs make transactions transparent and irreversible.
+- Together, the hardware and software layers form the **Ethereum Virtual Machine**, a decentralized world computer that operates without a central authority.
 
-____________________________________________________________________________________________________________________
+---
 
-## ETH Price Analysis 
+## ETH Price Analysis
 
-### A Closer look at ETH Price
+### A closer look at ETH price
 
-![ETH Price](Resources/eth_price_plot.png)<sup>8<sup>
-
+![ETH Price](Resources/eth_price_plot.png)
 
 ## Investment Analysis (Risks and Opportunities)
 
 ### Rolling Standard Deviation of ETH vs. Currencies & Asset Classes
 
-![Rolling STD](Resources/rolling_std_dev.png)<sup>8<sup>
+![Rolling STD](Resources/rolling_std_dev.png)
 
 ### Percentage Change of ETH vs. Currencies & Asset Classes
 
-![Heatmap](Resources/pct_change_heatmap.png)<sup>8<sup>
+![Heatmap](Resources/pct_change_heatmap.png)
 
 ### Risk of ETH vs. Currencies & Asset Classes
 
-![Boxplot](Resources/pct_change_box_plot.png)<sup>8<sup>
+![Boxplot](Resources/pct_change_box_plot.png)
 
 ### Sharpe Ratio of ETH vs. Currencies & Asset Classes
 
-![Sharpe](Resources/sharpe_ratios.png)<sup>8<sup>
- 
+![Sharpe](Resources/sharpe_ratios.png)
+
 ### Drawdown of ETH vs. Currencies & Asset Classes
- 
-![Drawdown](Resources/drawdown.png)<sup>8<sup>
+
+![Drawdown](Resources/drawdown.png)
 
 ### Mining Difficulty vs. ETH Price
 
-![Mining Difficulty](Resources/mining_difficulty_price.png)<sup>8<sup>
+![Mining Difficulty](Resources/mining_difficulty_price.png)
 
+---
 
 ## Observations and Recommendations
-In looking at these charts closely, you will notice that Ethereum is extremely volatile, though is also a good hedge against other asset classes.  Also, despite the high volatility, it has a very high "alpha" (excess return), indicating that it can be highly profitable as long as you invest responsibly.  Compared with currencies, it does not correlate especially well. This is to be expected as most of the comparison currencies are mature and heavily traded. 
 
-____________________________________________________________________________________________________________________
+Ethereum's price is extremely volatile yet has historically provided strong excess returns.  It can act as a hedge against traditional assets, but prudent position sizing and risk management are essential for investors.
 
-## Post Mortem/Lessons Learned
-- I ran into challenges identifying good API's to use, and running out of available data to pull (unless I paid to upgrade).  Some of the data received was also in a format that was difficult to convert to a dataframe.  Converting dates was also required on most of the imports. I used a variety of data sources - Google BigQuery, CoinGecko, GoogleFinance, Yahoo Finance, and some direct downloads.  Each comes with its own setup, documentation, and methodology.  
-- Preparing the data had challenges as PyViz had some anomalies that I had to work through. I originally coded this in a procedural manner, and had to convert to a functional process. Having to modify the code and associated source dataframes took a lot more time than if there no anomalies.  
+---
 
-____________________________________________________________________________________________________________________
+## Post Mortem / Lessons Learned
+
+- Finding reliable APIs and free data sources proved challenging, and many required extensive cleaning and date conversions.
+- PyViz occasionally produced anomalies, forcing a refactor from procedural to functional code and adding development time.
+
+---
 
 ## Works Cited
 
-<sup>1 ETH coin image - https://www.howtogeek.com/thumbcache/2/200/832a97c90178c6a52354c0b42cea6954/wp-content/uploads/2018/04/img_5ae3b681c9ae2.jpg
-
-<sup>2 Bitcoin Magazine https://bitcoinmagazine.com/guides/who-created-ethereum
-
-<sup>3 Moeller, M. (2018, February 26) *Ethereum Competitors: Guide to the Alternative Smart Contract Platforms* Blockonomi.com https://blockonomi.com/ethereum-competitors/
-
-<sup>4 Dughi, P. (2018, February 3) *A simple explanation of how blockchain works* Mission.org https://medium.com/the-mission/a-simple-explanation-on-how-blockchain-works-e52f75da6e9a#:~:text=Blockchain%20is%20the%20technology%20the%20underpins%20digital%20currency,a%20%E2%80%9Cdigital%20ledger%E2%80%9D%20stored%20in%20a%20distributed%20network.
-
-<sup>5 Reiff, N. (2020, June 16) *Bitcoin vs. Ethereum: What's the Difference?* Investopedia https://www.investopedia.com/articles/investing/031416/bitcoin-vs-ethereum-driven-different-purposes.asp.
-
-<sup>6 YouTube video: https://www.youtube.com/watch?v=DhoRtGCp4JI
-
-<sup>7 Denominations of Ether source: https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png
-
+1. ETH coin image – https://www.howtogeek.com/thumbcache/2/200/832a97c90178c6a52354c0b42cea6954/wp-content/uploads/2018/04/img_5ae3b681c9ae2.jpg
+2. Bitcoin Magazine – https://bitcoinmagazine.com/guides/who-created-ethereum
+3. Moeller, M. (2018, February 26) *Ethereum Competitors: Guide to the Alternative Smart Contract Platforms* Blockonomi.com – https://blockonomi.com/ethereum-competitors/
+4. Dughi, P. (2018, February 3) *A simple explanation of how blockchain works* Mission.org – https://medium.com/the-mission/a-simple-explanation-on-how-blockchain-works-e52f75da6e9a
+5. Reiff, N. (2020, June 16) *Bitcoin vs. Ethereum: What's the Difference?* Investopedia – https://www.investopedia.com/articles/investing/031416/bitcoin-vs-ethereum-driven-different-purposes.asp
+6. YouTube video – https://www.youtube.com/watch?v=DhoRtGCp4JI
+7. Denominations of Ether source – https://nagritech.com/wp-content/uploads/2020/04/Screenshot-22.png
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
