@@ -2,8 +2,6 @@
 
 This repository offers a brief tour of the Ethereum ecosystem using Python-based analysis and visualization.  The notebooks and scripts gather public data, calculate common financial statistics, and display the charts below to illustrate how the network and its native currency behave.
 
-<img src='https://www.uktech.news/wp-content/uploads/2019/09/shutterstock_776426233-898x505.jpg' width='550'>
-
 ## Project Structure
 
 - `crypto.ipynb` – Main notebook containing data exploration and visualizations.
